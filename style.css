@@ -1,25 +1,43 @@
 *{
-        margin:0px;
-        padding:0px;
-        box-sizing: border-box;
-
-}
-
-div.wrapper{
-    background-color: green;
-    height:100vh;
-    width:100vw;
-}
-
-.box1{
-    background-color: yellow;
-    width: 200px;
-    height: 200px;
-
-
-}
-
-#box1 > h2{
-    color: red;
-    background-color: blue;
-}
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+  }
+  
+  .wrapper{
+    background-color:green;
+    border-radius:20px;
+    height:500px;
+    min-width:800px;
+    max-width:850px;
+    margin:20px auto;
+    padding:20px;
+    
+  }
+  
+  .nav{
+    background-color:yellow;
+    border-radius:20px;
+    height:10px;//change
+    width:10px;//change
+    margin:;//change
+    
+  }
+  
+  .box1{
+    background-color:blue;
+    border-radius:20px;
+    height:10px;//change
+    width:10px;//change
+    display:;//change
+    margin://change;
+  }
+  
+  .box2{
+     background-color:blue;
+    border-radius:20px;
+    height:10px;//change
+    width:10px;//change
+    display:;//change
+    margin://change;
+  }
