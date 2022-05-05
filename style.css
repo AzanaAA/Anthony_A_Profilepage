@@ -11,13 +11,15 @@ div.wrapper{
     width:100vw;
 }
 
-#box1{
+.box1{
     background-color: yellow;
     width: 200px;
     height: 200px;
+
 
 }
 
 #box1 > h2{
     color: red;
+    background-color: blue;
 }
