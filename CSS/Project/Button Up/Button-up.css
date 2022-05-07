@@ -1,0 +1,39 @@
+.search{
+    border-width: thin;
+    border:solid 2px;
+    border-color: teal;
+    border-radius: 20px;
+    color: teal;
+    font-size: large;
+    width: 180px;
+    height: 30px;
+    font-weight: bold;
+
+}
+
+.plus{
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(54, 218, 163);
+    font-size: 20pt;
+
+}
+
+.create{border-radius: 1px;
+    border-color: black;
+    color: white;
+    background-color: rgb(92, 92, 219);
+    width: 250px;
+    height: 45px;
+    font-size: x-large;
+    font-style: normal;
+    box-shadow: 5px 5px 5px black;
+}
+
+div{
+    padding: 5px;
+
+}
