@@ -1,0 +1,48 @@
+.nav-title{
+    color: white;
+    margin-right: auto;
+    padding-left: 10px;
+}
+.nav{
+    background-color: grey;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.active{
+    color: white;
+}
+
+.btn{
+    background-color: lightskyblue;
+    color: white;
+    width: 75px;
+    height: 30px;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    color: grey;
+display: inline-flex;
+justify-content: right;
+margin: 0 15px;
+
+}
+
+.active{
+    font-weight: bold;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
