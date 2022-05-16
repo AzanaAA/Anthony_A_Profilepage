@@ -1,0 +1,324 @@
+#contentleft{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+#contentright{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-right: 25px;
+    
+}
+
+#contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+
+.header-title{
+    color: white;
+}
+.header{
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.active{
+    color: white;
+}
+
+.btnheader{
+    background-color: lightskyblue;
+    color: white;
+    width: 75px;
+    height: 30px;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+    margin-left: 270px;
+}
+
+.header-links{
+    display: flex;
+    align-items: center;
+}
+
+
+#liheader{
+    color: grey;
+display: inline-flex;
+justify-content: right;
+margin: 0 15px;
+}
+
+.activeheader{
+    font-weight: bold;
+}
+
+#aheader{
+    color: white;
+    text-decoration: none;
+}
+/*end of header*/
+
+#myprofile{ 
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    border: 3px solid gray;
+    margin-bottom: 30px;
+}
+
+#backgroundprofile{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(21, 127, 153);
+    width: 506px;
+    height: 100px;
+    position: relative;
+    top: -3px;
+    left: -3px;
+}
+
+#editprofile{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+div{
+    display: inline-block;
+}
+
+#h2profile{
+    display: inline-block;
+    margin-block: 10px;
+    font-size: 20px;
+}
+
+.userprofile{
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+
+#profilep{
+    display: inline-block;
+    margin-block: 0;
+    font-weight: bold;
+}
+
+.textprofile{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#profileheader{
+    margin-block: 0;
+}
+
+#gearprofile{
+    display: inline-block;
+}
+
+/* end of profile */
+
+#backgroundrequests{
+    background-color: darkslategray;
+    display: flex;
+    width: 270px;
+    height: 50px;
+    position: relative;
+} 
+
+#connection-requests{
+    width: 270px;
+    height: 170px;
+    display: flex;
+    background-color: white;
+    border: 3px solid grey;
+    margin-bottom: 30px;
+}
+
+#h2connectionrequests{
+    display: inline-block;
+    color: white;
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#phil, #todd{
+    width: 270px;
+    display: flex;
+}
+
+#prequests{
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.checkmark{
+    margin-left: auto;
+}
+
+.xmark{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.imgrequests{
+    margin-left: 10px;
+}
+
+
+
+.badge{
+    display: inline-block;
+    margin-left: 10px;
+    color: black;
+    background-color: grey;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+
+/* end of connection requests */
+
+
+#backgroundconnections{
+    background-color: darkslategray;
+    display: flex;
+    width: 270px;
+    height: 50px;
+    position: relative;
+}
+
+#your-connections{
+width: 270px;
+height: 300px;
+display: flex;
+background-color: white;
+border: 3px solid grey;
+}
+
+#h2yourconnections{
+    display: inline-block;
+    color: white;
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#adrien, #anne, #alayne, #arry{
+    width: 270px;
+    display: flex;
+}
+
+#pconnections{
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.imgconnections{
+    margin-left: 10px;
+}
+
+.badge2{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 15px;
+    color: black;
+    background-color: grey;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 5px;
+    height: 20px;
+    width: 35px;
+}
+
+#pviewmore{
+    display: flex;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* end of your connections */
+
+#education{ 
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    border: 3px solid gray;
+}
+
+#backgroundeducation{
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+#firstp{
+    display: block;
+    margin-top: -20px;
+}
+
+#codingdojo{
+    font-weight: bold;
+}
+
+#codingdojo2{
+    font-weight: bold;
+    color: grey;
+}
+
+#blackbelt{
+    font-weight: bold;
+}
+
+#firstp, #secondp{
+    margin-left: 25px;
+}
+
+.h2education{
+    display: block;
+    width: 100%;
+    color: white;
+}
+
+#headereducation{
+    margin-left: 25px;
+}
+
