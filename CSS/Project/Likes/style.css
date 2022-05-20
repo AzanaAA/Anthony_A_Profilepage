@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+#container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+
+#profiles{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#header{
+    color: white;
+    background-color: black;
+    padding: 15px;
+}
+
+#feed{
+    align-items: center;
+    color: black;
+    margin: 20px;
+    display:flex;
+    justify-content: center;
+}
+
+#leftside{
+    border: 1px solid black;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    margin-top: 10px;
+}
+
+
+#body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#boxes p {
+    margin-top: 10px;
+}
+
+button{
+    background-color: yellow;
+    padding: 5px;
+    box-shadow: 3px 3px;
+}
+
+
+#content{
+    border: 1px solid black;
+    padding: 20px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+
