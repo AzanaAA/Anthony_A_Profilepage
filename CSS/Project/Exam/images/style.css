@@ -64,6 +64,19 @@ align-items: center;
     right: 10px;
 }
 
+#bodyhead{
+    color: white;
+}
+
+#rightarrow{
+    display: flex;
+    justify-content: center;
+    background-color: lightseagreen;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+}
+
 #body{
     display: flex;
     justify-content: center;
@@ -90,7 +103,6 @@ align-items: center;
 #right h1{
     text-align: start;
     display: flex;
-    margin-top: 20px;
     padding: 20px;
     background-color: lightseagreen;
 }
@@ -114,10 +126,15 @@ li img{
     width: 150px;
 }
 
-#bodyhear{
+#bodyhead h2{
     display: flex;
-    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 20px;
+}
 
+#bodyhead img{
+    display: flex;
 }
 
 
