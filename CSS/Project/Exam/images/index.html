@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="container">
+        <div id="navbar">
+            <div id="header">
+                <div id="navcontent">
+                    <img id="leaf" src="assets/leaf.png" alt="leaf"> 
+                        <h2>EasyBay</h2>
+                    <div id="searchwrapper">
+                        <input id="searchbar" type="text" placeholder="Search for anything"> 
+                        <img src="assets/search-dark.png" alt="search icon">
+                    </div>
+                    <p>Sign In</p>
+                    <img id="cart" onclick="alert('Your Cart is empty!')" src="assets/cart-dark.png" alt="shop cart icon">
+                </div>
+            </div>
+            
+            <div id="header">
+                <div id="navcontent">
+                    <ul>
+                        <li>Aeonium</li>
+                        <li>Agave</li>
+                        <li>Aloe</li>
+                        <li>Anacamperos</li>
+                        <li>Aristaloe</li>
+                        <li>More...</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="header">
+                <div id="navcontent">
+                    <h1>Your Source for Serious Succulent Specialties</h1>
+                </div>
+            </div>
+        </div>
+    
+
+        <div id="body">
+            <div id="bodycontent">
+                <div id="left">
+                    <div id="bodyhead">
+                        <h1>Discover Succulent varieties one pot or rack at a time!</h1>
+                        <h2>Discover <img src="assets/arrow-light.png" alt="arrow-light"></h2>
+                    </div>
+                    <img onmouseover="change(this)" onmouseout="changeBack(this)" src="assets/succulents-1.jpg" alt="succulents1 image">
+                </div>
+            </div>
+            <div id="bodycontent">
+                <div id="right">
+                    <img src="assets/aloe-m.jpg" alt="aloe image">
+                    <h1>Soothing Aloe</h1>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="bottomnav">
+            <div id="bottomcontainer">
+                <div id="plantsbottom">
+                    <div id="platimgs">
+                        <ul>
+                            <li><img src="assets/aeonium-s.jpg" alt="aeonium"></li>
+                            <li><img src="assets/aloe-s.jpg" alt="aloe"></li>
+                            <li><img src="assets/cactus-s.jpg" alt="cactus"></li>
+                            <li><img src="assets/echeveria-s.jpg" alt="echeveria"></li>
+                            <li><img src="assets/sedum-s.jpg" alt="sedum"></li>
+                            <li><img src="assets/sempervivum-s.jpg" alt="sempervivum"></li>
+                        </div>
+                    <div id="plantnames">
+                        <ul id="ulnames">
+                            <li>Aeonium</li>
+                            <li>Aloe</li>
+                            <li>Cactus</li>
+                            <li>Echeveria</li>
+                            <li>Sedum</li>
+                            <li>Sempervivum</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="alertbox">
+            <img src="assets/alert-dark.png" alt="alert">
+            <p>This site makes use of third-party cookies, by clicking "I accept" you aree to te terms outlined in our <a href="#">cookie policy.</a></p>
+            <button onclick="hide(alertbox)">I Accept</button>
+        </div>
+
+    </div>
+
+    
+<script src="script.js"></script>
+</body>
+</html>
