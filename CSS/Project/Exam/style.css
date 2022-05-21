@@ -7,6 +7,7 @@
 padding: 20px;
 }
 
+/* start of header */
 
 #header{
     display: flex;
@@ -27,7 +28,6 @@ padding: 20px;
     text-decoration: none;
     display: inline;
     margin-right: 80px;
-
 }
 
 #navcontent{
@@ -56,13 +56,17 @@ align-items: center;
     margin-right: 10px;
 }
 
-
 #searchwrapper img{
     position: absolute;
     width: 20px;
     top: 10px;
     right: 10px;
 }
+
+/* end of header */
+
+
+/* start of body */
 
 #bodyhead{
     color: white;
@@ -83,6 +87,22 @@ align-items: center;
     margin-top: 30px;
 }
 
+#bodyhead h2{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#bodyhead img{
+    display: flex;
+}
+
+#bottomcontainer{
+    display: flex;
+    justify-content: center;
+}
+
 #left{
     display: flex;
     background-color: lightseagreen;
@@ -95,11 +115,6 @@ align-items: center;
     margin-top: 30px;
 }
 
-
-#plantsbottom li{
-    display: inline;
-}
-
 #right h1{
     text-align: start;
     display: flex;
@@ -107,11 +122,10 @@ align-items: center;
     background-color: lightseagreen;
 }
 
+/*end of body */
 
-#plantsbottom img{
-    border-radius: 100%;
-    margin-right: 15px;
-}
+
+/* start of bottom */
 
 #bottomnav ul{
     padding: 20px;
@@ -126,30 +140,20 @@ li img{
     width: 150px;
 }
 
-#bodyhead h2{
-    display: flex;
-    justify-content:center ;
-    align-items: center;
-    margin-top: 20px;
-}
-
-#bodyhead img{
-    display: flex;
-}
-
-
-
-#bottomcontainer{
-    display: flex;
-    justify-content: center;
-}
-
 #ulnames{
     display: flex;
     justify-content: space-around;
     font-weight: bold;
 }
 
+#plantsbottom li{
+    display: inline;
+}
+
+#plantsbottom img{
+    border-radius: 100%;
+    margin-right: 15px;
+}
 
 #alertbox{
     display: flex; 
@@ -161,3 +165,5 @@ li img{
     background-color: white;
     height: 100px;
     }
+
+    /*end of bottom*/
