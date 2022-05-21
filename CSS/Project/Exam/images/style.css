@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+padding: 20px;
+}
+
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#header ul{
+    text-decoration: underline solid black;
+}
+
+#cart{
+    cursor: pointer;
+}
+
+#header li{
+    text-decoration: none;
+    display: inline;
+    margin-right: 80px;
+
+}
+
+#navcontent{
+display: flex;
+align-items: center;
+}
+
+#navcontent h2{
+    margin-right: 10px;
+}
+
+
+#leaf{
+    background-color: lightseagreen;
+    margin-right: 10px;
+}
+
+#searchbar{
+    width: 750px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+#searchwrapper{
+    position: relative;
+    margin-right: 10px;
+}
+
+
+#searchwrapper img{
+    position: absolute;
+    width: 20px;
+    top: 10px;
+    right: 10px;
+}
+
+#body{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#left{
+    display: flex;
+    background-color: lightseagreen;
+    margin-right: 40px;
+} 
+
+#left h1{
+    width: 350px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+#plantsbottom li{
+    display: inline;
+}
+
+#right h1{
+    text-align: start;
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: lightseagreen;
+}
+
+
+#plantsbottom img{
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+#bottomnav ul{
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+#bottomnav{
+    margin-top: 30px;
+}
+
+li img{
+    width: 150px;
+}
+
+#bodyhear{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+#bottomcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+#ulnames{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+
+#alertbox{
+    display: flex; 
+    border: 1px solid black;
+    align-items: center;
+    position: absolute;
+    bottom: 550px;
+    right: 850px;
+    background-color: white;
+    height: 100px;
+    }
