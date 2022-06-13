@@ -29,7 +29,7 @@ for i in range(minimum, maximum+1):
         print(i)
         Oddtotal = Oddtotal + i
 
-print("Sum {0} to {1} = {2}".format(minimum, maximum, Oddtotal))
+print("Odd number sums from {0} to {1} = {2}".format(minimum, maximum, Oddtotal))
 
 # 5.  Print positive numbers starting at 2018, counting down by fours.
 i = 2018
