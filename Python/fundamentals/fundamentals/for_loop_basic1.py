@@ -26,7 +26,7 @@ Oddtotal = 0
 
 for i in range(minimum, maximum+1):
     if(i % 2 != 0):
-        print("{0}".format(i))
+        print(i)
         Oddtotal = Oddtotal + i
 
 print("Sum {0} to {1} = {2}".format(minimum, maximum, Oddtotal))
