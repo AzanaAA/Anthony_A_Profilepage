@@ -47,11 +47,11 @@ iterateDictionary2('last_name',students)
 
 
 
-def printInfo(dojo):
-    for key in dojo:
-        print(len(dojo[key]),key)
-        for i in range(len(dojo[key])):
-            print(dojo[key][i])
+def printInfo(some_dict):
+    for key in some_dict:
+        print(len(some_dict[key]),key)
+        for i in range(len(some_dict[key])):
+            print(some_dict[key][i])
         print('')
 
 
