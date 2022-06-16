@@ -52,7 +52,7 @@ def printInfo(dojo):
         print(len(dojo[key]),key)
         for i in range(len(dojo[key])):
             print(dojo[key][i])
-        print("")
+        print('')
 
 
 dojo = {
