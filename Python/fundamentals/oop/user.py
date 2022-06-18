@@ -12,7 +12,7 @@ class User:
             print(f"Last Name: {self.last_name}")
             print(f"Email: {self.email}")
             print(f"Age: {self.age}")
-            print(f"Is rewards member? {self.is_rewards_memeber}")
+            print(f"Is rewards member? {self.is_rewards_member}")
             print(f"Gold Card Points: {self.gold_card_points}") 
 
         def enroll(self):
@@ -22,4 +22,4 @@ class User:
         print(self.gold_card_points)
 
         def spend_points(self,amount):
-            self.gold_card_points= self.gold_card_points - amount
+            self.gold_card_points = self.gold_card_points - amount
