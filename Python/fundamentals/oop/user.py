@@ -16,8 +16,12 @@ class User:
         print(f"Gold Card Points: {self.gold_card_points}") 
 
     def enroll(self):
-        self.is_rewards_member = True
-        self.gold_card_points = 200
+        if self.is_rewards_member:
+            print("User is already a member!")
+        else:
+            self.is_rewards_member = True
+            self.gold_card_points = 200
+
 
     def spend_points(self,amount):
         self.gold_card_points = self.gold_card_points - amount
@@ -31,15 +35,8 @@ user1.display_info()
 user1.enroll()
 user1.spend_points(50)
 user1.display_info()
+user1.enroll()
 
 user2.enroll()
 user2.spend_points(80)
-
 user1,user2.display_info()
-
-user1.enroll()
-if False:
-    print("User1 Enrolled As Member!")
-elif True:
-    print("User1 Already Is A Member!")
-
