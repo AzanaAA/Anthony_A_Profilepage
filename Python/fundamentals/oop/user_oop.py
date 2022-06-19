@@ -43,5 +43,4 @@ if False:
 elif True:
     print("User1 Already Is A Member!")
 
-user3.enroll()
-    
+
