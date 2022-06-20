@@ -39,7 +39,7 @@ class User:
         self.account = BankAccount(int_rate=0.02,balance=0)
 
     def display_user_info(self):
-        print(f"Balance is: {self.account.display_account_info()}")
+        self.account.display_account_info()
         return self
 
 
