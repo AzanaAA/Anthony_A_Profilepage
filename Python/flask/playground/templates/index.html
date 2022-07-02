@@ -9,6 +9,7 @@
     .wrapper{
         display: flex;
         justify-content: space-evenly;
+        flex-wrap: wrap;
     }
 
     .box{
@@ -22,7 +23,7 @@
 <body>
     <div class="wrapper">
         {% for i in range(0,num) %}
-        <div class="box" stlye="background-color: {{color}};"></div>
+        <div class="box" style="background-color: {{color}};"></div>
         {% endfor %}
 
 </body>
