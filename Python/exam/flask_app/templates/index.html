@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Register</h1>
+    </div>
+    <div>
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        {% for message in messages %}
+        <p >{{message}}</p>
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+    </div>
+
+    <div>
+        <form action="/register" method="post">
+            <div>
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" mid="first_name" placeholder="first name">
+            
+
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" placeholder="last name">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+
+                <label for="password">Password</label>
+                <input type="text" name="password" id="password_confirmation" placeholder="Create a password">
+
+                <label for="password_confirmation">Password Confirmation</label>
+                <input type="text" name="password_confirmation" id="password_confirmation" placeholder="Confirm password">
+
+                <input type="submit" class="btn-primary" value="Submit">
+        </form>
+    </div>
+
+    <h1>Login</h1>
+    <div>
+        <form action="/login" method="post">
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+            </div>
+
+            <div>
+                <label for="password">Password</label>
+                <input type="text" name="password" id="password_confirmation" placeholder="Create a password">
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Submit">
+    </div>
+
+    
+</body>
+</html>

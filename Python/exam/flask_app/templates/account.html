@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+</head>
+<body>
+    <a href="/magazine/create">Add Magazine</a>
+    <a href="/logout">Log Out</a>
+    <a href="/magazines/home">Dashboard</a>
+    <div>
+        <h1>Update User</h1>
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+            {% for message in messages %}
+            <p>{{message}}</p> 
+            {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <form action="/user/update" method="post">
+            <input type="hidden" name="id" value="{{user.id}}">
+            <label for="first_name">First Name:</label>
+            <input type="text" name="first_name" id="first_name" value="{{user.first_name}}">
+
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" id="last_name" value="{{user.last_name}}">
+
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" value="{{user.email}}">
+
+            <input type="submit" value="Update User">
+    
+            <h1>User's Magazines</h1>
+        
+
+
+        </form>
+    </div>
+
+
+</body>
+</html>

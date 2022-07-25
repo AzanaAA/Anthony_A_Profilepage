@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Magazine</title>
+</head>
+<body>
+    <div>
+        <h1>Create Magazine</h1>
+        <a href="/magazines/home">Dashboard</a>
+        <a href="/logout">Log Out</a>
+    </div>
+
+    <div>
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        {% for message in messages %}
+        <p>{{message}}</p> 
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+    </div>
+
+    <form action="/magazines", method="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+
+        <label for="description">Description</label>
+        <textarea type="text" name="description" id="description" cols="30" rows="10"></textarea>
+
+        <input type="hidden" name="user_id" value="{{session['user_id']}}">
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+
+    </form>
+
+</body>
+</html>
