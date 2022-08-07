@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch AlfredTest",
+            "request": "launch",
+            "mainClass": "AlfredTest",
+            "projectName": "Anthony_A_Profilepage_81efdec1"
+        },
+        {
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open Text-Styling.html",
