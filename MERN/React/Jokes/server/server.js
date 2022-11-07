@@ -4,6 +4,8 @@ const port = 8000
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 
-require ('./server/config/mongoose.config')
-const routes =require('./server/routes/jokes.routes')
+require ('./config/mongoose.config')
+const routes =require('./routes/jokes.routes')
 routes(app)
+
+app.listen(8000, () => console.log("The server is all fired up on port 8000"));

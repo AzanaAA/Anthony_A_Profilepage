@@ -1,4 +1,3 @@
-const { application } = require('express')
 const Joke = require('../models/jokes.model')
 
 module.exports ={
@@ -49,5 +48,3 @@ module.exports ={
     }
 
 }
-
-app.listen(port,() => console.log(`Express running on port ${port}`))

@@ -1,6 +1,6 @@
-const Mongoose = require('mongoose')
+const mongoose = require('mongoose')
 
-const JokeSchema = new Mongoose.Schema(
+const JokeSchema = new mongoose.Schema(
 {
     setup: {
     type: String,
@@ -16,4 +16,4 @@ const JokeSchema = new Mongoose.Schema(
 
 const Joke = mongoose.model('Joke', JokeSchema)
 
-module.exports = Joke
+module.exports = Joke;
