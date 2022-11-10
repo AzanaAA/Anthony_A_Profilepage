@@ -3,9 +3,11 @@ import axios from "axios";
 
 const CreateProduct = (props) => {
 
+
     const [title, setTitle] = useState("");
     const [price, setPrice] = useState("");
     const [description, setDescription] = useState("");
+    const { productList, setProductList } = props;
 
     const submitHandler = (e)=>{
     e.preventDefault();
@@ -15,14 +17,15 @@ const CreateProduct = (props) => {
     .then((res)=>{
         console.log(res);
         console.log(res.data);
+        setProductList([...productList, res.data])
         setTitle("");
         setPrice("");
         setDescription("");
     })
     .catch((err)=>{
         console.log(err);
-    })
-    }
+    });
+    };
 
     return (
         <div>
