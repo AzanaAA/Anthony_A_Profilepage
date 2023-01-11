@@ -1,0 +1,14 @@
+Name: Anthony Azana	
+Stack: Python
+GitHub Repo:
+Wireframe link: (or PDF attached)
+Project Name: Warehouse Inventory Management
+Project Description: This project will allow the fulfillment team add and edit item description and location so it is easier for the warehouse team to locate and pick the item more efficiently.
+MVP (Minimum Viable Product) Features: Project is on GitHub
+.gitignore file in root folder (Create one here)
+All of CRUD* on a non-User table
+CSS implemented, and possibly other static content
+Data is validated upon create and edit, errors show
+Login and Registration with validations
+Protected routes (Must be logged in to view)
+Bonus Features: Application uses a CSS framework such as Bootstrap
