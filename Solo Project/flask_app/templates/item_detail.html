@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="/items/home">Dashboard</a>
+    <a href="/logout">Log Out</a>
+    <a href="/item/create">Add Item</a>
+    <a href="/user/edit/{{user.id}}">Account</a>
+    <div>
+        <h1>{{item.name}}</h1>
+        <p>Added by {{item.user.first_name}} {{item.user.last_name}}</p>
+        <p>Location: {{item.location}}</p>
+        <p>Description: {{item.description}}</p>
+    </div>
+
+</body>
+</html>

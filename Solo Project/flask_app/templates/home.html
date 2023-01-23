@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Home</title>
+</head>
+<body>
+    <div>
+        <h1>Welcome {{user.first_name}} {{user.last_name}}</h1>
+    </div>
+    <div>
+        <a href="/item/create">Add Item</a>
+        <a href="/user/edit/{{user.id}}">Account</a>
+        <a href="/logout">Log Out</a>
+
+    </div>
+
+    <h1>Item</h1>
+        <div>  
+            {% for item in item: %}
+                <p>{{item.name}} added by {{item.user.first_name}}</p>
+                <a href="/item/{{item.id}}">Description</a>
+                {% if item.user.id == user.id %}
+                <a href="/item/edit/{{item.id}}">Edit</a>
+                <a href="/item/delete/{{item.id}}">Delete</a>
+                {% endif %}
+            {% endfor %}
+
+        </div>
+</body>
+</html>
