@@ -50,7 +50,7 @@ def edit(id):
     return render_template("account.html",user=User.get_one(data), item=item)
 
 
-@app.route('/user/update',methods=['POST'])
+@app.route('/user/update',methods=["POST"])
 def update():
     User.update(request.form)
     return redirect('/items/home')
