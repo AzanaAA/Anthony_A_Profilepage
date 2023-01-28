@@ -52,7 +52,6 @@ class SLL {
 
 
 
-
 }
 
 var mySLL = new SLL();
@@ -60,4 +59,3 @@ mySLL.addFront(10);
 mySLL.addFront(5);
 mySLL.addFront(3);
 console.log(mySLL.display);
-console.log
